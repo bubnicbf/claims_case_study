@@ -1,3 +1,14 @@
+.DS_Store
+
+.Trash-*
+*/.Trash-*
+
+*.log
+logs/*.log
+*~
+*.bak
+*.backup
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
