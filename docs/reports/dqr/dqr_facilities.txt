@@ -1,0 +1,82 @@
+Data Quality Report for: Facilities
+
+Total number of rows: 11
+
+Missing Values Information:
+                               Missing Values  Percentage (%)
+doing_business_as_name                     7       63.636364
+incorporate_date                           2       18.181818
+incorporate_state                          2       18.181818
+organization_other_type_text               8       72.727273
+addressline2                              10       90.909091
+location_other_type_text                  10       90.909091
+subgroup_other_text                       10       90.909091
+subgroup_reh_conversion_date              11      100.000000
+subgroup_cah_ccn                          11      100.000000 
+
+Number of duplicate rows: 0
+
+Data Types:
+ enrollment_id                         object
+enrollment_state                      object
+provider_type_code                    object
+provider_type_text                    object
+npi                                    int64
+mulitple_npi                          object
+ccn                                   object
+associate_id                           int64
+organization_name                     object
+doing_business_as_name                object
+incorporate_date                      object
+incorporate_state                     object
+organization_type_structure           object
+organization_other_type_text          object
+proprietarynonprofit_flag             object
+addressline1                          object
+addressline2                          object
+city                                  object
+state                                 object
+zip_code                               int64
+practice_location_type                object
+location_other_type_text              object
+subgroup_general_flag                 object
+subgroup_acute_care_flag              object
+subgroup_alcohol_drug_flag            object
+subgroup_children_hospital_flag       object
+subgroup_longterm_flag                object
+subgroup_psychiatric_flag             object
+subgroup_rehabilitation_flag          object
+subgroup_shortterm_flag               object
+subgroup_swingbed_approved_flag       object
+subgroup_psychiatric_unit_flag        object
+subgroup_rehabilitation_unit_flag     object
+subgroup_speciality_hospital_flag     object
+subgroup_other_flag                   object
+subgroup_other_text                   object
+subgroup_reh_conversion_flag          object
+subgroup_reh_conversion_date         float64
+subgroup_cah_ccn                     float64
+dtype: object 
+
+Statistics for Numeric Columns:
+                 npi  associate_id      zip_code  subgroup_reh_conversion_date  \
+count  1.100000e+01  1.100000e+01  1.100000e+01                           0.0   
+mean   1.330171e+09  4.585974e+09  4.411852e+08                           NaN   
+std    2.894487e+08  2.468163e+09  2.577498e+05                           NaN   
+min    1.003855e+09  1.850204e+09  4.410438e+08                           NaN   
+25%    1.053635e+09  2.663447e+09  4.410768e+08                           NaN   
+50%    1.215990e+09  3.274432e+09  4.411156e+08                           NaN   
+75%    1.598784e+09  6.153426e+09  4.411431e+08                           NaN   
+max    1.710952e+09  8.628983e+09  4.419500e+08                           NaN   
+
+       subgroup_cah_ccn  
+count               0.0  
+mean                NaN  
+std                 NaN  
+min                 NaN  
+25%                 NaN  
+50%                 NaN  
+75%                 NaN  
+max                 NaN   
+
+-------------------------------------------
