@@ -98,6 +98,27 @@ The methodology employed in this project ensures a thorough and reliable analysi
 
 ## Analysis and Findings
 
+### Descriptive Analysis
+
+![ARIMA Model Results for Anesthesiology](../img/arima_anesthesiology.jpg)
+
+**Anesthesiology:**
+The Ljung-Box test statistics (lb_stat) are quite low across all lags (1 to 4), and the p-values (lb_pvalue) are well above the typical significance level of 0.05. This suggests that there is little to no autocorrelation in the Anesthesiology claims data, indicating that past values do not significantly predict future values.
+
+![ARIMA Model Results for Internal Medicine](../img/arima_intmed.jpg)
+
+**Internal Medicine:**
+Similar to Anesthesiology, the test statistics for Internal Medicine are low, especially for the first two lags. The p-values are also above 0.05, but the third and fourth lags have lower p-values, suggesting that as we look at more extended lags, there may be some degree of autocorrelation, but it's not statistically significant.
+
+![ARIMA Model Results for Urology](../img/arima_urology.jpg)
+
+**Urology:**
+The Ljung-Box test results for Urology are interesting. While the p-value at the first lag is not significant, the second and fourth lags have p-values that are close to the threshold of significance. The test statistic also increases with the number of lags, which could suggest that there is a borderline significant autocorrelation at those lags, but it is not strong enough to be definitive.
+
+For all three specialties, there is no strong statistical evidence of autocorrelation at the lags tested. While some p-values for Internal Medicine and Urology are close to the significance level, they are not sufficiently low to conclusively reject the null hypothesis.
+
+### Predictive Analysis
+
 ![ARIMA Model Results for Anesthesiology](../img/arima_anesthesiology.jpg)
 
 ARIMA time series of total claims for Anesthesiology, contrasting actual historical data with forecasts for the year 2023. 
