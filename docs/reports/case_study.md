@@ -35,14 +35,6 @@ Healthcare facilities face challenges in accurately assessing local demand for k
 "Majority of healthcare leaders struggle with inefficient data, report finds." Healthcare Dive. Published March 23, 2023. Accessed December 13, 2023. [https://www.healthcaredive.com/news/majority-of-healthcare-leaders-struggle-with-inefficient-data-report-intelligent-medical-objects/645850/](https://www.healthcaredive.com/news/majority-of-healthcare-leaders-struggle-with-inefficient-data-report-intelligent-medical-objects/645850/).
 
 
-## Table of Contents (XXXXXXX)
-- List all the sections and sub-sections with page numbers for easy navigation.
-
-## Introduction (XXXXXXX
-- **Background:** Provide context for your analysis.
-- **Objectives:** State the objectives of your analysis.
-- **Methodology Overview:** Summarize the approach and tools used.
-
 ## Data Overview
 - **Facilities:** Contains facility information classifications.
 - **Provider-Facility Affiliated Cl:** Tracks claims activities for clinicians and facilities.
