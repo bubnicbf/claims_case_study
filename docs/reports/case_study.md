@@ -4,7 +4,8 @@
 - **Presented to Axuall**
 
 ## Executive Summary
-- A brief overview of the report, including key findings and recommendations.
+
+This report presents an analysis of healthcare service demand for the years 2021-2022, focusing on Internal Medicine, Urology, and Anesthesiology. The primary objective was to inform resource planning decisions by predicting the demand for these specialties in 2023. Through a series of methodological steps, including data quality assessment and validation, the ARIMA time series model was applied to forecast future claims. The findings suggest a stable demand for Anesthesiology and Urology and a gradual increase for Internal Medicine. Despite the constraints of a limited timeframe for analysis, recommendations are provided to maintain current staffing levels for stable demand specialties, while strategically increasing resources for Internal Medicine in anticipation of growth. Future work should focus on expanding data collection, refining the ARIMA model, and incorporating external datasets to enhance seasonality detection and forecasting accuracy.
 
 ## Problem Framing: Healthcare Staffing Efficiency in Cleveland
 
