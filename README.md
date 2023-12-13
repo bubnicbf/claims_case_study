@@ -1,5 +1,11 @@
 # Case Study: Clinician Demand Analysis
 
+## Analysis Report
+
+An analysis report has been prepared to discuss the case study outlined below
+
+- [Analysis Report](https://github.com/bubnicbf/claims_case_study/blob/main/docs/reports/case_study.md)
+
 ## Introduction
 Thank you for your interest in Axuall’s Data Scientist position. To assess your ability to frame a healthcare provider data problem and select an appropriate solution approach, we have prepared a case study. You should be able to complete this case study in less than 3 hours.
 
