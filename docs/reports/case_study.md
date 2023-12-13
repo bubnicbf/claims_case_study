@@ -100,17 +100,44 @@ The methodology employed in this project ensures a thorough and reliable analysi
 
 ### Descriptive Analysis
 
-![ARIMA Model Results for Anesthesiology](../img/arima_anesthesiology.jpg)
+![ARIMA Model Results for Anesthesiology](../img/ac_anesthesiology.jpg)
+
+**Ljung-Box Test for ANESTHESIOLOGY:**
+
+| Lag | lb_stat   | lb_pvalue |
+|-----|-----------|-----------|
+| 1   | 0.113256  | 0.736467  |
+| 2   | 1.693066  | 0.428899  |
+| 3   | 1.788819  | 0.617371  |
+| 4   | 2.987840  | 0.559862  |
 
 **Anesthesiology:**
 The Ljung-Box test statistics (lb_stat) are quite low across all lags (1 to 4), and the p-values (lb_pvalue) are well above the typical significance level of 0.05. This suggests that there is little to no autocorrelation in the Anesthesiology claims data, indicating that past values do not significantly predict future values.
 
-![ARIMA Model Results for Internal Medicine](../img/arima_intmed.jpg)
+![ARIMA Model Results for Internal Medicine](../img/ac_intmed.jpg)
+
+**Ljung-Box Test for INTERNAL MEDICINE:**
+
+| Lag | lb_stat   | lb_pvalue |
+|-----|-----------|-----------|
+| 1   | 0.479367  | 0.488709  |
+| 2   | 0.949730  | 0.621969  |
+| 3   | 4.887626  | 0.180213  |
+| 4   | 6.739921  | 0.150287  |
 
 **Internal Medicine:**
 Similar to Anesthesiology, the test statistics for Internal Medicine are low, especially for the first two lags. The p-values are also above 0.05, but the third and fourth lags have lower p-values, suggesting that as we look at more extended lags, there may be some degree of autocorrelation, but it's not statistically significant.
 
-![ARIMA Model Results for Urology](../img/arima_urology.jpg)
+![ARIMA Model Results for Urology](../img/ac_urology.jpg)
+
+**Ljung-Box Test for UROLOGY:**
+
+| Lag | lb_stat   | lb_pvalue |
+|-----|-----------|-----------|
+| 1   | 0.338222  | 0.560857  |
+| 2   | 4.537164  | 0.103459  |
+| 3   | 4.568000  | 0.206304  |
+| 4   | 7.697439  | 0.103312  |
 
 **Urology:**
 The Ljung-Box test results for Urology are interesting. While the p-value at the first lag is not significant, the second and fourth lags have p-values that are close to the threshold of significance. The test statistic also increases with the number of lags, which could suggest that there is a borderline significant autocorrelation at those lags, but it is not strong enough to be definitive.
