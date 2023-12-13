@@ -1,8 +1,7 @@
-# Title Page
-- **Optimizing Clinical Staffing in Cleveland Healthcare: Demand Analysis and Projections for Internal Medicine, Urology, and Anesthesiology (2021-2022)**
+# Optimizing Clinical Staffing in Cleveland Healthcare: Demand Analysis and Projections for Internal Medicine, Urology, and Anesthesiology (2021-2022)
 - **Ben Bubnick**
 - **2023-12-13**
-- **Axuall**
+- **Presented to Axuall**
 
 ## Executive Summary
 - A brief overview of the report, including key findings and recommendations.
