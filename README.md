@@ -2,6 +2,10 @@
 
 ## Analysis Report
 
+The case study presentation has been uploaded to the repo
+
+- [Case Study Presentation](https://bubnicbf.github.io/claims_case_study/)
+
 An analysis report has been prepared to discuss the case study outlined below
 
 - [Analysis Report](https://github.com/bubnicbf/claims_case_study/blob/main/docs/reports/case_study.md)
